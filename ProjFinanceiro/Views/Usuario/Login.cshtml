@@ -1,0 +1,28 @@
+﻿@model UsuarioModel
+
+@{
+    try
+    {
+        if (TempData["Mensagem de Login Invalido"].ToString() != null)
+        {
+            <div class="alert alert-danger">
+                <strong></strong>@TempData["Mensagem de Login Invalido"]
+            </div>
+        }
+    }
+    catch { }
+}
+<form asp-controller="Usuario" asp-action="ValilarLogin">
+    <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" class="form-control" asp-for="Email">
+    </div>
+    <div class="form-group">
+        <label for="pwd">Senha:</label>
+        <input type="password" class="form-control" asp-for="Senha">
+    </div>
+    <div class="checkbox">
+        <label><input type="checkbox">lembrar</label>
+    </div>
+    <button type="submit" class="btn btn-default">Enviar</button>
+</form> 
