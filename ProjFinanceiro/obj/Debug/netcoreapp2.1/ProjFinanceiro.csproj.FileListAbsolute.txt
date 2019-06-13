@@ -31,3 +31,4 @@ C:\Users\kaique\Documents\Visual Studio 2017\Projects\ProjFinanceiro\ProjFinance
 C:\Users\kaique\Documents\Visual Studio 2017\Projects\ProjFinanceiro\ProjFinanceiro\obj\Debug\netcoreapp2.1\ProjFinanceiro.pdb
 C:\Users\kaique\Documents\Visual Studio 2017\Projects\ProjFinanceiro\ProjFinanceiro\obj\Debug\netcoreapp2.1\ProjFinanceiro.csproj.CopyComplete
 C:\Users\kaique\Documents\Visual Studio 2017\Projects\ProjFinanceiro\ProjFinanceiro\obj\Debug\netcoreapp2.1\Razor\Views\Usuario\Login.g.cshtml.cs
+C:\Users\kaique\Documents\Visual Studio 2017\Projects\ProjFinanceiro\ProjFinanceiro\obj\Debug\netcoreapp2.1\Razor\Views\Usuario\Registrar.g.cshtml.cs
