@@ -23,13 +23,33 @@ namespace ProjFinanceiro.Controllers
         }
 
         [HttpPost]
-        [HttpGet]
         public IActionResult Registrar(UsuarioModel usuario)
+        {
+            if (ModelState.IsValid) {
+                usuario.RegistrarUsuario();
+                return RedirectToAction("Sucesso");
+            }
+            return View();
+        }
+
+        public IActionResult Sucesso() {
+            return View();
+
+        }
+
+        public IActionResult Menu()
         {
             return View();
         }
 
-            public IActionResult ValidarLogin(UsuarioModel usuario) {
+        [HttpGet]
+        public IActionResult Registrar()
+        {
+            return View();
+        }
+
+
+        public IActionResult ValidarLogin(UsuarioModel usuario) {
 
             bool login = usuario.ValidarLogin();
             if(login)
@@ -37,7 +57,7 @@ namespace ProjFinanceiro.Controllers
                 HttpContext.Session.SetString("NomeUsuarioLogado", usuario.Nome);
                 HttpContext.Session.SetString("IdUsuarioLogado", usuario.ID.ToString());
 
-                return RedirectToAction("Index", "Home");
+                return RedirectToAction("Menu", "Home");
             }else{
                 TempData["Mensagem de Login Invalido"] = "Dados de logins invalidos";
                 return RedirectToAction("Login");
