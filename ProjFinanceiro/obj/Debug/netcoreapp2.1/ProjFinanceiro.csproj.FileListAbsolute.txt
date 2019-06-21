@@ -40,3 +40,6 @@ C:\Users\kaique\Documents\Visual Studio 2017\Projects\ProjFinanceiro\ProjFinance
 C:\Users\kaique\Documents\Visual Studio 2017\Projects\ProjFinanceiro\ProjFinanceiro\obj\Debug\netcoreapp2.1\Razor\Views\Transacao\Extrato.g.cshtml.cs
 C:\Users\kaique\Documents\Visual Studio 2017\Projects\ProjFinanceiro\ProjFinanceiro\obj\Debug\netcoreapp2.1\Razor\Views\Transacao\DashBoard.g.cshtml.cs
 C:\Users\kaique\Documents\Visual Studio 2017\Projects\ProjFinanceiro\ProjFinanceiro\obj\Debug\netcoreapp2.1\Razor\Views\Home\Ajuda.g.cshtml.cs
+C:\Users\kaique\Documents\Visual Studio 2017\Projects\ProjFinanceiro\ProjFinanceiro\obj\Debug\netcoreapp2.1\Razor\Views\Conta\Index.g.cshtml.cs
+C:\Users\kaique\Documents\Visual Studio 2017\Projects\ProjFinanceiro\ProjFinanceiro\obj\Debug\netcoreapp2.1\Razor\Views\Transacao\Index.g.cshtml.cs
+C:\Users\kaique\Documents\Visual Studio 2017\Projects\ProjFinanceiro\ProjFinanceiro\obj\Debug\netcoreapp2.1\Razor\Views\Usuario\Index.g.cshtml.cs

@@ -19,7 +19,7 @@
         foreach(var item in (List<ContaModel>)ViewBag.ListaConta){
             <tbody>
                 <tr>
-                    <td><button class="btn btn-danger" type="button">Excluir</td>
+                    <td><button class="btn btn-danger" type="button" onclick="Excluir(@item.Id.ToString())">Excluir</td>
                     <td>@item.Id.ToString()</td>
                     <td>@item.Nome.ToString()</td>
                     <td>@item.Saldo.ToString()</td>
@@ -27,6 +27,16 @@
             </tbody>
         }
     }
-
 </table>
+
+<button type="button" class="btn btn-block btn-primary" onclick="CriarConta()">Criar Conta</button>
+
+<function>
+    function CriarConta(){
+    window.Location.href = "../Conta/CriarConta";
+    }
+    function Excluir(id_conta){
+    window.Location.href = "../Conta/ExcluirConta" + id_conta;
+    }
+</function>
 
